@@ -6,11 +6,11 @@
     <meta name="keywords" content="HTML,CSS, cinema, filmes">
     <meta name="author" content="JuliaKarol">
     <meta name="description" content="SpaceCine é um site de cinema que oferece informações sobre filmes em cartaz, destaques, avaliações e muito mais.">
+    <title>SpaceCine</title>
     <link rel="stylesheet" href="./src/styles/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-    <title>SpaceCine</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -21,8 +21,6 @@
 
         <!-- Grupo 2  -->
        
-            <a href="" class="logo"></a>
-
          <nav> 
             <ul class="menu">
             
@@ -38,10 +36,51 @@
         <!-- Grupo 3  -->
 
         <nav>
-          <a href="" class="bntLogin" >Login</a>
+          <a href="" class="btnLogin" >Login</a>
         </nav>
-         
 
-    </hearder>
+    </header>
+    
+    <!------------------ MAIN ------------------------->
+    <main>
+        <h1>Vingadores <span class ="text-highlight">Ultimato</span></h1>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966,</p>
+        <nav>
+            <a href="" class="btnPrimary"> Comprar agora</a>
+            <a href="" class="btnSecondary"> Ver mais</a>
+        </nav>
+        
+    </main>
+    
+    <!------------------ SECTION ------------------------->
+    <section class="section-showing">
+
+        <div class="showing-content">
+            <span> Agora no SpaceCine</span>
+            <h2> Filmes em Cartaz</h2>
+        </div>
+
+        <div class="showing-container-movies">
+            <div class="card-movies">
+                <img src="./src/assets/images/showingParaTodosOsGarotos.svg" alt="cartaz do filme ParaTodosOsGarotos " loading="lazy">
+                <h3>Para todos os garotos...</h3>
+                <div class="movies-details">
+                    <span>Romance - 1h 40m</span>
+                    <div class="movies-avaliation">
+                        <img src="./src/assets/images/iconstar.svg" alt="icon star" loading="lazy">
+                        <span>4.9</span>
+                    </div>
+                </div>
+
+                <img src="./src/assets/images/showingFast&Furious11.svg" alt="cartaz do filme Fast&Furious11" loading="lazy">
+                <h3>Fast&Furious11</h3>
+               
+
+                
+            </div>
+        </div>
+
+    </section>
+
 </body>
 </html>

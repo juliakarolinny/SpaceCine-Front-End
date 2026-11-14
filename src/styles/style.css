@@ -138,7 +138,7 @@ main p{
     font-family: var(--font-title);
     font-weight: 400;
 }
-.Section-family-promotions{
+.section-family-promotions{
     display: flex;
     background-image: url("../assets/images/promotions-section.svg");
     flex-direction: column;

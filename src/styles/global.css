@@ -13,9 +13,12 @@
    --color-purple700:#3C096C;
    --color-purple600:#5A189A;
    --color-purple500:#7B2CBF;
-    --color-purple400:#9D4EDD;
+   --color-purple400:#9D4EDD;
    --color-purple300:#C77DFF;
    --color-white:#fff;
+   --color-yellow: #FFBA43;
+   --color-dark: #171616;
+   --color-black: #000000;
 
    --font-title: "Bebas Neue", sans-serif;
    --font-body: "Inter", sans-serif;

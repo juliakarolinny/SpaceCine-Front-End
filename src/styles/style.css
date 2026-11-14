@@ -56,6 +56,7 @@ main p{
     font-family: var(--font-body);
     font-size: 18px;
     width: 447px;
+    margin-bottom: 20px;
 
 }
 .btnPrimary, .btnSecondary{
@@ -137,3 +138,42 @@ main p{
     font-family: var(--font-title);
     font-weight: 400;
 }
+.Section-family-promotions{
+    display: flex;
+    background-image: url("../assets/images/promotions-section.svg");
+    flex-direction: column;
+    gap: 15px;
+    justify-content: flex-end;
+    padding-bottom: 100px;
+    padding-left: 100px;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size:cover;
+    color: var(--color-white);
+}
+h2{
+    font-family: var(--font-title);
+    text-transform: uppercase;
+    font-size: 45px;
+    width: 324px;
+    line-height: 40px; 
+    
+}
+section p{
+    font-family: var(--font-body);
+    color: var(--color-white);
+    font-size: 18px;
+    width: 447px;
+    margin-bottom: 20px;
+    
+}
+.btn-view-promotions{
+    color: var(--color-white);
+    background-color: var(--color-purple500);
+    font-family: var(--font-title);
+    padding: 5px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
